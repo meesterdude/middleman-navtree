@@ -23,7 +23,6 @@ module Middleman
       option :navigation_tree_item_directory_index_linked, File.expand_path('../views/_navigation_tree_item_directory_index_linked.html.erb', __FILE__), 'Path (relative to project root) to an ERb template that will be used to generate the linked tree item child if directory indexes is activiated.'
       option :navigation_tree_item_directory_index_non_linked, File.expand_path('../views/_navigation_tree_item_directory_index_non_linked.html.erb', __FILE__), 'Path (relative to project root) to an ERb template that will be used to generate the non linked tree item child if directory indexes is activiated.'
 
-
       # Helpers for use within templates and layouts.
       self.defined_helpers = [ ::Middleman::NavTree::Helpers ]
 
